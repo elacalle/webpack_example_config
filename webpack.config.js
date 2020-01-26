@@ -34,5 +34,10 @@ module.exports = {
       template: 'index.ejs',
       title: 'App example'
     })
-  ]
+  ],
+  resolve:{
+    alias: {
+      vue: 'vue/dist/vue.esm.js'
+    }
+  }
 }

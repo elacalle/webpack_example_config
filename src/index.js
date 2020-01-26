@@ -1,5 +1,5 @@
 import './styles/style.css'
-import Vue from 'vue/dist/vue.js';
+import Vue from 'vue';
 import cookie from './pages/index.html';
 
 const cookieComponent = Vue.component('cookie', {template: cookie});
